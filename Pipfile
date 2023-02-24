@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = ">=1.22.2"
+pandas = ">=1.4.1"
+arrow = "*"
+requests = "*"
+chartify = "*"
+jupyter = "*"
+black = "*"
+isort = "*"
+matplotlib = "*"
+businesstimedelta = "*"
+jira = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
